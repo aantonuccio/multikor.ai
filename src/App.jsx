@@ -48,26 +48,18 @@ function App() {
               
               {/* Call to Action */}
               <div className="pt-8 space-y-6">
-                <p className="text-cyan-400 text-xl md:text-2xl font-medium">
-                  Request invite
-                </p>
-                
                 {/* Email Contact Box */}
                 <div className="inline-block bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-2xl">
                   <div className="flex flex-col items-center gap-4">
                     <Mail className="text-cyan-400" size={32} />
                     
                     <a 
-                      href="mailto:info@multikor.ai?subject=Request%20Invite%20to%20Multikor.ai"
+                      href="mailto:info@multikor.ai"
                       className="text-white text-xl md:text-2xl font-semibold hover:text-cyan-400 transition-colors flex items-center gap-2"
                     >
                       info@multikor.ai
                       <ArrowRight size={24} className="text-cyan-400" />
                     </a>
-                    
-                    <p className="text-gray-400 text-sm">
-                      Click to send us an email
-                    </p>
                   </div>
                 </div>
               </div>
